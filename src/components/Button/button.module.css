@@ -1,0 +1,19 @@
+.container {
+  position: absolute;
+  inset-block-start: 10px;
+  inset-inline-start: 10px;
+  background-color: greenyellow;
+  z-index: 1;
+  border: 0;
+  padding-inline: 0.5rem;
+  padding-block: 0.25rem;
+}
+
+.container:hover {
+  cursor: pointer;
+  transform: translateY(-2px);
+}
+
+.container:active {
+  transform: translateY(0);
+}
